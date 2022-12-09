@@ -8,7 +8,7 @@ function Login({ providers }) {
         <div key={provider.name}>
           <button
             className="p-5 bg-[#18D860] rounded-lg text-black"
-            onClick={() => signIn(provider.id, { callbackUrl: "https://accounts.spotify.com/api/token" })}
+            onClick={() => signIn(provider.id, { callbackUrl: "https://lotify-blrqtszfb-levinixon.vercel.app/" })}
           >
             Login to Lotify
           </button>
