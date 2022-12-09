@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useRecoilState } from "recoil";
 import { playlistIdState, playlistState } from "../atoms/playlistAtom";
 import useSpotify from "../hooks/useSpotify";
-import Songs from "./Songs";
+import Songs from "./songs";
 
 
 const colors = [
